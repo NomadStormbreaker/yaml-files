@@ -40,4 +40,4 @@ spec:
             - name: DATABASE_USER
               value: "tictactoe_user"
             - name: DATABASE_PASSWORD
-              value: "securepassword
+              value: "securepassword"
