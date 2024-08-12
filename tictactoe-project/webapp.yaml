@@ -18,7 +18,7 @@ spec:
         - name: webapp
           image: nomadstormbreaker/tictactoe-webapp:1
           ports:
-            - containerPort: 5000
+            - containerPort: 500
 ---
 apiVersion: v1
 kind: Service
