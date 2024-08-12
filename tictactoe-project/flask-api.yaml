@@ -10,7 +10,7 @@ spec:
     - protocol: TCP
       port: 5000
       targetPort: 5000
-      nodePort: 30007  # Example NodePort
+      nodePort: 30007
 
 ---
 apiVersion: apps/v1
@@ -29,7 +29,7 @@ spec:
     spec:
       containers:
         - name: flask-api
-          image: nomadstormbreaker/tictactoe-api:latest
+          image: nomadstormbreaker/tictactoe-api:1
           ports:
             - containerPort: 5000
           env:
